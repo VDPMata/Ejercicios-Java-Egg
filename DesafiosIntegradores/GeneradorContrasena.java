@@ -53,6 +53,7 @@ public class GeneradorContrasena {
                 bandera = true;
             }else{
                 System.out.println("La contraseña no es segura, genere una nueva");
+                System.out.println(Arrays.toString(caracteres));
                 numero = scanner.nextInt();
             }
         }while(!bandera);
