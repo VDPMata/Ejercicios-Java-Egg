@@ -17,15 +17,15 @@ public class NumerosPrimosPlus {
     // por el usuario.
     public static void numerosPlus(){
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese la cantidad de numeros primos que desea obtener");
         int contador = scanner.nextInt();
-
         int numeroPrimo = 2;
         int[] arrayPrimos = new int[contador];
         for(int i = 0 ; i < contador; i++){
             if(numeroPrimo == 2 || numeroPrimo == 3 || numeroPrimo == 5){
                 arrayPrimos[i] = numeroPrimo; 
                 numeroPrimo++; 
-            }else if(numeroPrimo % 2 == 0 || numeroPrimo % 3 == 0 || numeroPrimo % 5 == 0){
+            }else if(numeroPrimo % 2 == 0 || numeroPrimo % 3 == 0 || numeroPrimo % 5 == 0 || numeroPrimo % 19 == 0){
                 numeroPrimo++;
                 i--;
             }else{
