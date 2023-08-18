@@ -1,4 +1,4 @@
-package DesafiosIntegradores;
+package DesafiosIntegradores.EjerciciosVarios;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -33,6 +33,5 @@ public class Factorial {
             multiplicador *=elemento;
         } 
         System.out.println("El factorial de: " + numero + " es: " + multiplicador);
-
     }
 }

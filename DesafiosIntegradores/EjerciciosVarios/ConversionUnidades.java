@@ -1,4 +1,4 @@
-package DesafiosIntegradores;
+package DesafiosIntegradores.EjerciciosVarios;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

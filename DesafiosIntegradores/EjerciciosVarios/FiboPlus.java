@@ -1,4 +1,4 @@
-package DesafiosIntegradores;
+package DesafiosIntegradores.EjerciciosVarios;
 
 import java.util.Arrays;
 import java.util.Scanner;

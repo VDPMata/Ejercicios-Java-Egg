@@ -29,7 +29,7 @@ public class MostrarMenu {
             System.out.println("******************************");
 
             opcion = scanner.nextInt();
-
+            scanner.nextLine(); // salto de linea para limpiar el scanner
             switch (opcion) {
                 case 1:
                     oracion = crearBorrar(oracion, scanner);
@@ -84,7 +84,7 @@ public class MostrarMenu {
     }
 
     public static String crearBorrar(String oracion, Scanner scanner) {
-        scanner.nextLine();
+       // scanner.nextLine();
         if (oracion.isEmpty()) {
             System.out.println("Ingrese la oracion: ");
             oracion = scanner.nextLine();
@@ -119,7 +119,7 @@ public class MostrarMenu {
     }
 
     public static void buscarPalabra(String oracion, Scanner scanner) {
-        scanner.nextLine();
+      //  scanner.nextLine();
         System.out.println("Ingrese palabra a buscar");
         String palabraBuscar = scanner.nextLine();
         String[] frase = oracion.split("\\s+");
@@ -132,7 +132,7 @@ public class MostrarMenu {
     }
 
     public static String modificarPalabra(String oracion, Scanner scanner) {
-        scanner.nextLine();
+      //  scanner.nextLine();
         System.out.println("Ingrese palabra a buscar");
         String palabraCambiar = scanner.nextLine();
         String[] frase = oracion.split("\\s+");
@@ -153,9 +153,9 @@ public class MostrarMenu {
     }
 
     public static String agregarContenido(String oracion, Scanner scanner) {
-        scanner.nextLine();
+       // scanner.nextLine();
         System.out.println("Ingrese frase o palabra para agregar al final");
         return oracion += scanner.nextLine();
     }
-
+    
 }

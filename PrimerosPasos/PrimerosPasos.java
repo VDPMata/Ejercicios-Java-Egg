@@ -2,23 +2,23 @@ package PrimerosPasos;
 import java.util.Scanner;
 
 public class PrimerosPasos {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         
     }
 
     // Crear un programa que imprima "Hola Mundo" en la consola.
-    public static void holaMundo() {
+    public static void holaMundo(){
         System.out.println("Hola Mundo");
     }
 
     // Crear un programa que imprima "Mi nombre es [tu nombre]" en la consola.
-    public static void miNombre() {
+    public static void miNombre(){
         String nombre = "Mata";
         System.out.println("Hola " + nombre);
     }
 
     // Crear un programa que imprima "Mi edad es [edad]" en la consola.
-    public static void miEdad() {
+    public static void miEdad(){
         int edad = 27;
         System.out.println("Mi edad es: " + edad);
     }
@@ -52,7 +52,7 @@ public class PrimerosPasos {
 
     // Solicitar al usuario que ingrese su nombre, guardarlo en una variable e
     // imprimir el dato.
-    public static void nombreSaludo() {
+    public static void nombreSaludo(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese su nombre: ");
         String nombre = scanner.nextLine();
@@ -62,7 +62,7 @@ public class PrimerosPasos {
 
     // Solicitar al usuario que ingrese un número, guardarlo en una variable e
     // imprimir el dato.
-    public static void edad() {
+    public static void edad(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese su edad");
         int edad = scanner.nextInt();
@@ -73,7 +73,7 @@ public class PrimerosPasos {
     // Solicitar al usuario su nombre, luego solicita su edad e imprime en pantalla
     // un mensaje que diga “Su nombres es [nombre del usuario] y su edad es [edad
     // del usuario]”
-    public static void nombreEdad() {
+    public static void nombreEdad(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese su nombre\n");
         String nombre = scanner.nextLine();
@@ -85,7 +85,7 @@ public class PrimerosPasos {
 
     // Dados dos números, realizar las 5 operaciones posibles en Java y mostrar el
     // resultado en consola.
-    public static void operaciones() {
+    public static void operaciones(){
         int num1 = 8;
         int num2 = 4;
 
@@ -98,7 +98,7 @@ public class PrimerosPasos {
 
     // Pedir al usuario que ingrese dos números, guardarlos en una variable,
     // realizar la suma de los números y mostrar el resultado en la consola.
-    public static void ingresarNumeros() {
+    public static void ingresarNumeros(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese el primer numero");
         int num1 = scanner.nextInt();
@@ -112,7 +112,7 @@ public class PrimerosPasos {
     // Comparar si número 1 es mayor a número 2.
     // Entender si número 1 es distinto a número 2.
     // Entender si número 1 es divisible por 2.
-    public static void compararNumeros() {
+    public static void compararNumeros(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese el primer numero");
         int num1 = scanner.nextInt();
@@ -133,7 +133,7 @@ public class PrimerosPasos {
     // Pedir al usuario que ingrese 4 números y comparar:
     // Si el número 1 es mayor al número 2 y si el número 3 es mayor al número 4.
     // Si el número 1 es mayor al número 2 o si el número 3 es mayor al número 4.
-    public static void pedirCuatroNumeros() {
+    public static void pedirCuatroNumeros(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese el primer numero");
         int num1 = scanner.nextInt();
